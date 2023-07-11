@@ -89,14 +89,10 @@ margin-left:4px;
     
 }
 .img-text{
-    padding-top:500px;
-    
-    padding-right:300px;
-    padding-left:100px;
+    text-align:center;
     text-decoration:underline;
-    
-    display:flex;
-    
+  display:flex;
+    space-between:3px;
 }
 span{
     color:#E55473
@@ -117,7 +113,7 @@ span{
 }
 
 .bg-img{
-    background-image:url('file:///C:/projects/assignment-flower-shop/Rectangle%209.png');
+    background-image:url('');
 }
 
 
