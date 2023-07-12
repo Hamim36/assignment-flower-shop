@@ -16,7 +16,7 @@ margin-left:150px;
 
 
 }
-p{
+.p-text{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     margin-left:150px;
@@ -38,65 +38,70 @@ padding: 20px 43px;
 margin-left:150px;
 }
 
-.scnd-title{
-    text-align: center;
-    color: #272727;
-    
-    font-family: Lato;
-    
+.scnd-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:100px;
 
-}
-.scnd-p-title{
-margin-top:2px;
-margin-left:1000px;
-margin-left:1000px;
-width:595;
-font-family: Lato;
-}
-.scnd-image{
-    display: block;
-    margin-left: 750px;
-    margin-right: auto;
-display:flex;
-weight:
 
-}
-.img1{
+  }
+  #imgp1{
+padding-top:40px;
+  }
+
+  #imgp2{
+    padding-top:200px;
+  }
+
+  #img-bg1{
     border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-width: 320px;
-height:471px;
-
-
+    background: rgba(167, 33, 98, 0.15);
+    width: 320px;
+    height:471px;
+    margin-bottom:250px;
     
-
-}
-.img2{
+  }
+  #img-bg2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 370px;
     height: 470px;
-margin-left:4px;
-
-    
-}
-.img3{
+    margin-left:4px;
+    margin-bottom:250px;
+  }
+  #img-bg3{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    width: 314px;
+background: rgba(71, 125, 17, 0.15);
+width: 314px;
 height: 471px;
 margin-left:4px;
+margin-bottom:250px;
+
+  }
+  #img-txt{
+    display: flex;
+  text-decoration: underline;
+   flex-direction:column;
+   color: #272727;
+   text-align: center;
+   font-family: Lato;
+   font-size: 1.5rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 2.1875rem;
+  }
+
+  
+  .img-container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 10 10px;
     
-}
-.img-text{
-    text-align:center;
-    text-decoration:underline;
-  display:flex;
-    space-between:3px;
-}
-span{
-    color:#E55473
-}
+  }
+
+
 .header3{
     text-align:center;
 }
@@ -113,10 +118,36 @@ span{
 }
 
 .bg-img{
-    background-image:url('');
+    background-image: url('images/Rectangle\ 9.png');
+    width: 90rem;
+height: 28.0625rem;
+border-radius: 0.5rem;
+justify-content: center;
+    align-items: center;
+
 }
+#input{
+    display: flex;
+align-items:center;
 
+}
+input{
+    width: 43.75rem;
+height: 4rem;
+flex-shrink: 0;
+border-radius: 0.5rem;
+background: #FFF;
+margin-left:200px;
 
+}
+#s-button{
+    color: #FFF;
+    background: #E55473;
+    border-radius: 0.5rem;
+background: #E55473;
+    width: 9.375rem;
+height: 4rem;
+}
 
 footer{
     text-align:center;
@@ -125,6 +156,9 @@ footer{
 height: 28.0625rem;
 background: #111010;
 text-color:white;
+}
+span{
+    color:#E55473
 }
 #fp{
     color: rgba(255, 255, 255, 0.90);
